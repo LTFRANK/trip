@@ -18,7 +18,7 @@
 			width:100%;
 			max-width:480px;
 			min-width: 320px;
-			font-family:"微软雅黑";
+			font-family:Helvetica,"微软雅黑";
 			background-color:#a7d1fc;
 			overflow: hidden;
 			margin:0 auto;
@@ -27,10 +27,11 @@
 			background-color: #fff;
 		}
 		body{
-			background: url(../img/start_bg.png) no-repeat;
+			background: url(../img/start_bg.png) repeat-x;
 			/*background-color:#a7d1fc;*/
 			background-size:cover;
-			background-position: center -1.10rem;		
+			background-position: center -1.10rem;	
+			
 		}
 	
 		.start{
@@ -134,10 +135,10 @@
 			position: absolute;top:5.1rem;left:0.7rem;width:5.1rem;
 		}
 		.sucess_inner{
-			position: absolute;top:5.2rem;left:0.7rem;width:5.1rem;
+			position: absolute;top:3.4rem;left:0.7rem;width:5.1rem;
 		}
 		#baby_icon{
-			width:3.04rem;height:3.8rem;margin-top: 0.1rem;position: absolute;left:-0.7rem;
+			width:3.04rem;height:3.8rem;position: absolute;bottom:-3.2rem;left:0
 		}
 		
 		.play_again{
@@ -152,11 +153,17 @@
 		#mark{
 			width:2.56rem;height:2.56rem;
 		}
+		#mark2{
+			width:2.0rem;height:2.0rem;
+		}
 		#rabbit{
 			width:2.73rem;height:3.94rem;position: absolute;left:-1rem;margin-top:-0.3rem;
 		}
 		#cancel_box{
 			width:1.46rem;height:1.5rem;position: absolute;bottom:-0.75rem;right:-0.4rem;
+		}
+		.sucess_play_again{
+			position: relative;top: 0.33rem;z-index: 2;
 		}
 		.model_wrap>img{
 			width: 100%;
